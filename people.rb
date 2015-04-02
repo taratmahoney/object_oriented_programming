@@ -28,7 +28,7 @@ i.teach
 s = Student.new("Christina")
 s.print_name
 s.learn
-s.teach 
+#s.teach didn't work because this is not a method associated with the student class. 
 
 
 # Create an instance of an object to save it s = Person.new("")
