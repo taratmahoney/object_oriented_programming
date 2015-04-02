@@ -23,8 +23,12 @@ end
 
 i = Instructor.new("Chris")
 i.print_name
+i.teach
 
-
+s = Student.new("Christina")
+s.print_name
+s.learn
+s.teach 
 
 
 # Create an instance of an object to save it s = Person.new("")
